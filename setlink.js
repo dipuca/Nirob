@@ -13,7 +13,7 @@ userInput.question("Enter your link:~$ ", (value) => {
 
   //
   fs.writeFile(
-    "./profile/link.js",
+    "lnk.js",
     `const offerLink = "${value}";`,
     function (err) {
       console.log("Link set seccussful.");

@@ -8,7 +8,7 @@ const userInput = readline.createInterface({
   output: process.stdout,
 });
 
-userInput.question("Enter your link:~$ ", (value) => {
+userInput.question("link.js", (value) => {
   console.log(value);
 
   //
